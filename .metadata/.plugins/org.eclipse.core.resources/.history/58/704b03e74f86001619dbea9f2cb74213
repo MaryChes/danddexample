@@ -1,0 +1,32 @@
+package com.ourcharacters;
+
+import com.interfaces.ClassInterface;
+import com.parents.CharacterClass;
+
+public class TwilekJedi extends CharacterClass implements ClassInterface {
+
+	public TwilekJedi() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public TwilekJedi(int health, int magic, String name) {
+		super(health, magic, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		super.setHealth(+50);
+
+	}
+
+	@Override
+	public void changeMagic() {
+		super.setMagic(+100);
+
+	}
+
+	
+
+}

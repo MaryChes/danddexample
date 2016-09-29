@@ -1,0 +1,32 @@
+package com.ourcharacters;
+
+import com.interfaces.ClassInterface;
+import com.parents.CharacterClass;
+
+public class SmurfWarrior extends CharacterClass implements ClassInterface {
+
+	public SmurfWarrior() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public SmurfWarrior(int health, int magic, String name) {
+		super(health, magic, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		super.setHealth(+75);
+
+	}
+
+	@Override
+	public void changeMagic() {
+		super.setMagic(+0);
+
+	}
+
+	
+
+}

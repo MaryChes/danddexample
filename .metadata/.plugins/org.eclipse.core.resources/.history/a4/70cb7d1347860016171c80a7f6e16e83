@@ -1,0 +1,26 @@
+package com.ourcharacters;
+
+import com.interfaces.ClassInterface;
+import com.parents.CharacterClass;
+
+public class TurtleNinja extends CharacterClass implements ClassInterface {
+
+	@Override
+	public void changeHealth() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void changeMagic() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void weaponType() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

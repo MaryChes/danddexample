@@ -1,0 +1,39 @@
+package com.ourcharacters;
+
+import com.app.Weapons;
+import com.interfaces.Jedi;
+import com.parents.Elf;
+
+public class ElfJedi extends Elf implements Jedi {
+	
+	private Weapons jediWeapon = null;
+	
+	public ElfJedi(Weapons jediWeapon) {
+		super();
+		this.jediWeapon = jediWeapon;
+	}
+
+	public ElfJedi() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public ElfJedi(int health, int magic, String name) {
+		super(health, magic, name);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void changeHealth() {
+		super.setHealth(+50);
+		
+	}
+
+	@Override
+	public void changeMagic() {
+		super.setMagic(+100);
+
+	}
+
+	
+}
