@@ -18,13 +18,13 @@ public class Turtle extends CharacterClass {
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(+25);
+		super.setHealth(health + 25);
 	}
 
 	@Override
 	public void setMagic(int magic) {
 		// TODO Auto-generated method stub
-		super.setMagic(+5);
+		super.setMagic(magic + 5);
 	}
 
 	@Override

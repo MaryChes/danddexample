@@ -2,4 +2,18 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="com.ourcharacters.ElfJedi"/>
+<fullyQualifiedTypeName name="com.app.Weapons"/>
+<fullyQualifiedTypeName name="com.app.Weapons.Weapon"/>
+<fullyQualifiedTypeName name="com.parents.Elf"/>
+<fullyQualifiedTypeName name="com.interfaces.Royal"/>
+<fullyQualifiedTypeName name="com.parents.Twilek"/>
+<fullyQualifiedTypeName name="com.interfaces.Jedi"/>
+<fullyQualifiedTypeName name="com.parents.Turtle"/>
+<fullyQualifiedTypeName name="com.interfaces.Ninja"/>
+<fullyQualifiedTypeName name="com.interfaces.Warrior"/>
+<fullyQualifiedTypeName name="com.parents.Smurf"/>
+<fullyQualifiedTypeName name="com.parents.Human"/>
+<fullyQualifiedTypeName name="com.interfaces.Wizard"/>
+<fullyQualifiedTypeName name="com.ourcharacters.HumanWizard"/>
+<fullyQualifiedTypeName name="com.interfaces.StoriesInterface"/>
 </qualifiedTypeNameHistroy>

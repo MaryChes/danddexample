@@ -18,13 +18,13 @@ public class Human extends CharacterClass {
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(+50);
+		super.setHealth(health + 50);
 	}
 
 	@Override
 	public void setMagic(int magic) {
 		// TODO Auto-generated method stub
-		super.setMagic(+0);
+		super.setMagic(magic);
 	}
 
 	@Override

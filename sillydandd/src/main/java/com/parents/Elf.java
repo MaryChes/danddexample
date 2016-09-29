@@ -17,13 +17,13 @@ public class Elf extends CharacterClass {
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(+100);
+		super.setHealth(health + 100);
 	}
 
 	@Override
 	public void setMagic(int magic) {
 		// TODO Auto-generated method stub
-		super.setMagic(+50);
+		super.setMagic(magic + 50);
 	}
 
 	@Override

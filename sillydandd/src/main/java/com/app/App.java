@@ -3,6 +3,7 @@ package com.app;
 import java.util.Scanner;
 
 import com.ourcharacters.ElfJedi;
+import com.ourcharacters.HumanWizard;
 import com.parents.*;
 import com.interfaces.*;
 
@@ -30,7 +31,11 @@ public class App {
 			String userInput = sc.nextLine();
 			switch (userInput) {
 			case "1":
-				//Call to humanWizard methods here
+				HumanWizard hw = HumanWizard.makeHumanWizard();
+				System.out.println(hw.getHealth());
+				System.out.println(hw.getMagic());
+				System.out.println(hw.getName());
+				System.out.println(hw.getWeapon());
 				break;
 			case "2":
 				//Call to elfRoyal methods here

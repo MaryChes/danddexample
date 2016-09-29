@@ -2,9 +2,11 @@ package com.ourcharacters;
 
 import com.app.Weapons.Weapon;
 import com.interfaces.ClassInterface;
+import com.interfaces.Jedi;
 import com.parents.CharacterClass;
+import com.parents.Twilek;
 
-public class TwilekJedi extends CharacterClass implements ClassInterface {
+public class TwilekJedi extends Twilek implements Jedi {
 
 	public TwilekJedi() {
 		super();

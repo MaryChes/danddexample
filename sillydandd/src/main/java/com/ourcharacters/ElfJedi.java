@@ -19,12 +19,14 @@ public class ElfJedi extends Elf implements Jedi {
 		// TODO Auto-generated constructor stub
 	}
 
+	//from jedi
 	@Override
 	public void changeHealth() {
 		super.setHealth(+50);
 		
 	}
 
+	//from jedi
 	@Override
 	public void changeMagic() {
 		super.setMagic(+100);
@@ -36,4 +38,19 @@ public class ElfJedi extends Elf implements Jedi {
 	public void setWeapon(Weapon weapon) {
 		super.setWeapon(Weapon.LIGHTSABER);
 	}
+	
+	public ElfJedi makeElfJedi(){
+		ElfJedi ourElfJedi = new ElfJedi();
+		
+		ourElfJedi.setHealth(0);
+		ourElfJedi.setMagic(0);
+		ourElfJedi.setName(null);
+		ourElfJedi.setWeapon(null);
+		ourElfJedi.changeHealth();
+		ourElfJedi.changeMagic();
+		
+		return ourElfJedi;
+	}
+	
+	
 }

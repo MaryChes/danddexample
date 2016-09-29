@@ -3,9 +3,11 @@ package com.ourcharacters;
 import com.app.Weapons;
 import com.app.Weapons.Weapon;
 import com.interfaces.ClassInterface;
+import com.interfaces.Royal;
 import com.parents.CharacterClass;
+import com.parents.Elf;
 
-public class ElfRoyal extends CharacterClass implements ClassInterface {
+public class ElfRoyal extends Elf implements Royal {
 
 	public ElfRoyal() {
 		super();

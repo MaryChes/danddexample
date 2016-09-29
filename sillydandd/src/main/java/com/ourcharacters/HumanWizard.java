@@ -2,9 +2,11 @@ package com.ourcharacters;
 
 import com.app.Weapons.Weapon;
 import com.interfaces.ClassInterface;
+import com.interfaces.Wizard;
 import com.parents.CharacterClass;
+import com.parents.Human;
 
-public class HumanWizard extends CharacterClass implements ClassInterface {
+public class HumanWizard extends Human implements Wizard {
 
 	public HumanWizard() {
 		super();
@@ -17,15 +19,18 @@ public class HumanWizard extends CharacterClass implements ClassInterface {
 		// TODO Auto-generated constructor stub
 	}
 
+	
+	//from wizard
 	@Override
 	public void changeHealth() {
-		super.setHealth(+0);
+		super.setHealth(health+0);
 
 	}
 
+	//from wizard
 	@Override
 	public void changeMagic() {
-		super.setMagic(+200);
+		super.setMagic(magic+200);
 
 	}
 
@@ -34,6 +39,26 @@ public class HumanWizard extends CharacterClass implements ClassInterface {
 		public void setWeapon(Weapon weapon) {
 			super.setWeapon(Weapon.WAND);
 		}
+		
+	public static HumanWizard makeHumanWizard(){
+		
+		HumanWizard ourHuWizard = new HumanWizard();
+		
+		ourHuWizard.changeHealth();
+		ourHuWizard.setHealth(0);
+		
+		ourHuWizard.setMagic(0);
+		ourHuWizard.changeMagic();
+		ourHuWizard.setName(null);
+		ourHuWizard.setWeapon(null);
+		
+		
+		
+		return ourHuWizard;
+		
+		
+		
+	}
 
 
 }

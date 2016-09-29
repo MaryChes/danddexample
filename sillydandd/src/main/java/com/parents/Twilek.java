@@ -18,13 +18,13 @@ public class Twilek extends CharacterClass {
 	@Override
 	public void setHealth(int health) {
 		// TODO Auto-generated method stub
-		super.setHealth(+75);
+		super.setHealth(health + 75);
 	}
 
 	@Override
 	public void setMagic(int magic) {
 		// TODO Auto-generated method stub
-		super.setMagic(+10);
+		super.setMagic(magic + 10);
 	}
 
 	@Override
